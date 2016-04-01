@@ -1,0 +1,347 @@
+body {
+	font: 12px Verdana,Serif,Arial;
+	line-height: 18px;  /*(межстрочный интервал) текста, отсчет ведется от базовой линии шрифта*/
+	color: #482610;	/*цвет букв*/
+	margin: 0px;	/*Устанавливает величину отступа от каждого края элемента*/
+	padding: 0px;	/*значение полей вокруг содержимого элемента*/
+}
+h1{
+	font-family: Georgia, serif;
+	font-style:italic;
+	font-size: 12px;
+	margin-left: 10px;
+}
+table, table td { 
+	padding:5px;
+	border-collapse:collapse;
+}
+ a{	/*ссылка "Подробнее" */
+	color: #8F612B; 
+}
+ a:hover{
+	color: #CCA96F;
+}
+#wrapper{
+	width:920px;
+	margin:0 auto;
+}
+#header .logo{
+margin-top: -60px;
+height:150px;
+/*	border: 1px solid black;*/
+}
+#header .menu{
+clear:both;
+float:right;
+width:100%;
+color: #F9F1D9;
+background:#4C2B11; /*#CCA96F*/
+height:27px;
+vertical-align: middle;
+padding-top: 7px;
+}
+#header .menu a{
+color: #F9F1D9; /* #F9F1D9 #CCA96F*/
+text-decoration: none; 
+}
+#header .menu a:hover{
+color: #CCA96F;
+}
+#header .menu li{
+	float: left;
+	margin-right: 40px;
+	margin-top: -10px;
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+}
+#header .smalcart{
+	float:right;
+	height:55px;
+	padding: 10px;
+	padding-left: 15px;
+	margin: -85px 20px 20px 0px;
+	color: #5D4832;
+	background: #DCDDAC; 
+	border: 1px solid #CCA96F;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;  
+}
+#header .smalcart a{
+	color: #5D4832;
+}
+#header .smalcart a:hover{
+color: black;
+}
+#header .search{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 0;
+	width:50%;
+	color: brown;
+	font-weight: 600;
+	padding-top: 0;
+}
+#header .search a{
+	color: #4C2B11;
+}
+#header .search a:hover{
+color: #CCA96F;
+}
+#header .sub_search{
+    padding: 2px 6px; /* Поля вокруг текста */	
+    border: 1px solid #5D4832;
+	border-radius: 0px 5px 5px 0px; /* Закругляем углы */ 
+	background: #4C2B11;
+	color: #F9F1D9;
+}
+#content {	
+	padding-left: 10px;
+	width:710px;
+	float:left;
+	min-height: 440px;
+}
+#sidebar{
+	width:160px;
+	float:left;
+	min-height: 440px;
+	padding-top: 10px;
+	border-right: dashed 1px #1F0F10;
+}
+#footer{
+	margin-top: 20px;
+	clear: both;
+	float:left;
+	height:60px;
+	width:100%;
+	text-align:right;
+}
+.product{
+	position: relative;
+	font-size: 12px;
+	color: #4C2B11;
+	float:left;
+	border: 1px solid #CCA96F;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;  
+	text-align:center;
+	padding: 5px;
+	width:210px;
+	height:210px;
+	margin: 5px;
+}
+.product_price{
+	position: absolute;
+	bottom: 0; 
+	left: 0;
+	color:#DE3120;
+	font-size: 12pt;
+	font-weight: 600;
+	padding: 5px;
+	margin: 9px 13px;
+}
+.product_buy {
+	clear: none;
+	float:right;
+	font-size: 10pt;
+	padding: 4px;
+	text-decoration: none; 
+	margin: 10px;
+	position: absolute;
+	bottom: 0; 
+	right: 0;
+}
+.product_buy a{
+	clear: none;
+	float:right;
+	font-size: 10pt;
+	color:#4C2B11;
+	background:#FF9F28;	
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;  
+	text-decoration: none; 
+	padding: 4px;
+	margin: -2px 0px;
+}
+.product_buy a:hover{
+	color:white;
+}
+.product_image img{
+	border: 0;
+	margin: 3px;
+	height:90px;
+}
+.product_desc{
+	text-align:justify;
+	padding: 10px;
+	font-size: 10pt;
+}
+.card_product{
+	width: 70%;
+	border: 1px solid #CCA96F;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;   
+	background:#FDF8DD;
+	padding: 10px;
+	margin: 10px;
+}
+.card_product th{
+	text-align: right;
+	padding-right: 10px;
+	width: 120px;
+}
+.card_image {
+
+	height:280px;
+	padding: 5px;
+}
+.table_form  {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 14px;
+	color: #383838;
+	background: #DCDDAC; /*#CCCE88*/
+	border: 1px solid #CCA96F;
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;   
+	padding: 10px;
+	margin: 10px;
+}
+.table_form  th{
+	width: 100px;
+}
+.table_form  input{
+	border: 1px solid #CCA96F;
+}
+.table_form  textarea{
+	border: 1px solid #CCA96F;
+	width: 350px; 
+	height: 100px;
+}
+.table_submit{
+	float:right;
+	margin-top: 0px;
+	margin-right: 230px;
+	padding: 5px; /* Поля вокруг текста */	
+	border: 1px solid #5D4832;
+	border-radius: 5px; /* Закругляем углы */ 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	background: #4C2B11;
+	color: #F9F1CC;
+}
+.cart_submit  {
+	float:left;
+	margin: 10px;
+	padding: 5px; /* Поля вокруг текста */	
+	border: 1px solid #5D4832;
+	border-radius: 5px; /* Закругляем углы */ 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	background: #4C2B11;
+	color: #F9F1CC;
+}
+.pagination{
+	clear:both;
+	float:left;
+	color: #1F0F10;
+}
+.pagination a{
+	padding:0px 5px 0px 5px;
+	margin-right:5px;
+	border: #808080 solid 1px;
+	background: white;
+	text-decoration:none;
+	color: #1F0F10;
+}
+.pagination a:hover, .pagination .activ{
+	background: #AA7F50;
+}
+.registration  input{
+	width: 260px;
+}
+#found {
+	font-size: 12px;
+	margin-top: 15px;
+}
+.found_img{
+	float: left;
+	margin: 15px;
+	margin-top: 0px;
+	height:150px;
+}
+.found_price{
+	float: left;
+	color: #DE3120;
+	font-size: 12pt;
+	font-weight: 600;
+	padding: 5px;
+	margin: 9px 13px;
+}
+.found_buy{
+	clear: none;
+	font-size: 10pt;
+	text-decoration: none; 
+	margin: 17px;
+	margin-left: 230px;
+}
+.found_buy a{
+	clear: none;
+	font-size: 10pt;
+	color:#4C2B11;
+	background:#FF9F28;	
+	border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	-webkit-border-radius: 10px;  
+	text-decoration: none; 
+	padding: 4px;
+}
+.found_buy a:hover{
+	color:white;
+}
+.sidebarmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font: bold 13px Verdana;
+width: 150px; /*Ширина меню */
+}
+.sidebarmenu ul li{
+position: relative;
+}
+/* Стили ссылок для основного списка меню */
+.sidebarmenu ul li a{
+display: block;
+overflow: auto; 
+color: #1F0F10;
+text-decoration: none;  /*убрали подчеркивание*/
+padding: 5px; /*отступы*/
+border-bottom: 1px solid #482610; /*границы пункта меню*/
+border-right: 1px solid #482610;
+}
+.sidebarmenu ul li a:link, .sidebarmenu ul li a:visited,
+.sidebarmenu ul li a:active{
+background-color: #CCA96F; /*#849B74 фоновый цвет основного списка*/
+}
+.sidebarmenu ul li a:visited{
+color: #1F0F10;  /*цвет шрифта после наведения курсора*/
+}
+.sidebarmenu ul li a:hover{
+color: white; 
+background-color: #482610; /*цвет фона после наведения курсора*/
+}
+/*Стили для подменю */
+.sidebarmenu ul li ul{
+position: absolute;
+width: 170px; /*ширина подменю */
+top: 0;
+visibility: hidden;
+}
+* html .sidebarmenu ul li { float: left; height: 1%; }
+* html .sidebarmenu ul li a { height: 1%; }
